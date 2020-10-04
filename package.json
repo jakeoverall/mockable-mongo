@@ -1,0 +1,22 @@
+{
+  "name": "mockmongo",
+  "version": "0.0.1",
+  "description": "An in memory mongodb for tests and mocking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "ava",
+    "jest",
+    "mocha",
+    "chai"
+  ],
+  "author": "Jake Overall",
+  "license": "ISC",
+  "dependencies": {
+    "mongo-in-memory": "0.0.5"
+  }
+}
