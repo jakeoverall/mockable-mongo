@@ -8,7 +8,7 @@ A library for mocking a MongoDb Instance in memory.
 Starts up a mongodb instance in a promise based approach allowing the call to be awaited. User can specify the name of the database the full connection string will be returned
 
 ```javascript
-import MockMongo from 'mockmongo'
+import MockMongo from 'mockable-mongo'
 import Mongoose from 'mongoose'
 
 describe('Testing with Mocha', () => {
@@ -42,7 +42,7 @@ With ava be sure to spin up and teardown the db in each file as all tests are ru
 
 ```javascript
 import ava from 'ava'
-import MockMongo from 'mockmongo'
+import MockMongo from 'mockable-mongo'
 import Mongoose from 'mongoose'
 
 const MONGO_SERVER = new MockMongo()
