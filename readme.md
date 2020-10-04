@@ -1,7 +1,11 @@
-MockMongo
+mockable-mongo
 =========
 
 A library for mocking a MongoDb Instance in memory. 
+
+```s
+npm i -D mockable-mongo
+```
 
 
 #### Testing Mocha
