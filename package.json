@@ -1,6 +1,6 @@
 {
   "name": "mockable-mongo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An in memory mongodb for tests and mocking",
   "main": "index.js",
   "scripts": {  },
